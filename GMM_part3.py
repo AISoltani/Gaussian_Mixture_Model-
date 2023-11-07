@@ -1,3 +1,5 @@
+# Import Libraries
+
 import numpy as np
 
 def GMM_part3 (x,K):
