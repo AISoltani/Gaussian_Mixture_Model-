@@ -54,7 +54,7 @@ def GMM_part3 (x,K):
                     # print(S[k])
                     SS[k] = S[k]*np.eye(d)
     
-    
+
     # print('Mu=',Mu.T)
     # print('S=',SS)
     return Mu.T,SS
