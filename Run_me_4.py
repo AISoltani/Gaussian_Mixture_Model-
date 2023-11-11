@@ -22,7 +22,6 @@ print("test labels size: ",test_labels.shape)
 # for i in range(11):
 #     print(train_labels[i])
 
-
 # train_images = train_images/255
 # train_images = train_images.reshape(train_images.shape[0],784)
 
