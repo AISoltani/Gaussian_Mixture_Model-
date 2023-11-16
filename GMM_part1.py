@@ -1,3 +1,4 @@
+
 import numpy as np
 
 def GMM_part1 (X,K):
