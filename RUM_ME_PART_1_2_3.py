@@ -2,6 +2,7 @@ import numpy as np
 from GMM_part1 import GMM_part1
 from GMM_part2 import GMM_part2
 from GMM_part3 import GMM_part3
+
 # import test_set_hw8
 d = 2 # Number of dimensions
 n = 10000
