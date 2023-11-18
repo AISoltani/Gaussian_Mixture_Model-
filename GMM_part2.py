@@ -51,7 +51,7 @@ def GMM_part2 (X,K):
                 Mu[k] = np.reshape(np.sum(r[:,k]*X,axis=1)/R0[k],(d,1))
                 S[k] = (np.sum(np.sum(r[:,k]*X**2,axis=1)/R0[k]-(Mu[k].T**2)))/d
                 SS[k] = S[k]*np.eye(d)
-    
+
     
     # print('Mu=',Mu)
     # print('S=',SS)
