@@ -53,7 +53,7 @@ def GMM_part1 (X,K):
                 S[k] = np.sum(r[:,k]*X**2,axis=1)/R0[k]-(Mu[k].T**2)
                 inv_S[k] = (S[k])**(-1)
                 SS[k] = S[k]*np.eye(d)
-    
+
     
     # print('Mu=',Mu)
     # print('S=',SS)
