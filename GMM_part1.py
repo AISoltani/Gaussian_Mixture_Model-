@@ -1,4 +1,4 @@
-# import libraries
+# Import libraries
 
 import numpy as np
 
@@ -24,7 +24,6 @@ def GMM_part1 (X,K):
         for k in range(K):
             mu = np.random.normal(size=(d, 1))
             Mu.append(mu)
-
             s = np.ones((d,1))
             inv_s = 1/s
             S.append(s)
