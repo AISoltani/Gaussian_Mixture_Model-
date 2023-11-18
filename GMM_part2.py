@@ -21,6 +21,7 @@ def GMM_part2 (X,K):
         inv_S = []
         # diag_inv_S = []
         Loss = []
+        
         for k in range(K):
             mu = np.random.normal(size=(d, 1))
             Mu.append(mu)
