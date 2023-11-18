@@ -32,6 +32,7 @@ def GMM_part1 (X,K):
             inv_S.append(inv_s)
         Max_iter = 500
         r = np.zeros([n,K])
+        
         for iteration in range(Max_iter):
             for k in range(K):
                 Inv_s = np.reshape(inv_S[k],(d,1))
