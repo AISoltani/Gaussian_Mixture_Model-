@@ -41,6 +41,7 @@ def GMM_part1 (X,K):
             l = -np.log(R1).sum()
             if np.abs(l)>10**15:
                 break
+                
             Loss.append(l)
             if iteration > 1 and np.abs(Loss[iteration]-Loss[iteration-1])<=TOL*np.abs(Loss[iteration]):
                 break
