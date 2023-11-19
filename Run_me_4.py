@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from GMM import GMM 
 import math
 
+
 train_images = 'train-images.idx3-ubyte'
 train_labels = 'train-labels.idx1-ubyte'
 test_images = 't10k-images.idx3-ubyte'
