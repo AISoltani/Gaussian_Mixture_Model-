@@ -37,7 +37,6 @@ def GMM_part3 (x,K):
                 for k in range(K):
                     r[:,k] = Pi[k]*((S[k][j])**(-1/2))*(np.exp((-1/2)*(X-Mu[j,k]) * (X-Mu[j,k]) / S[k][j]))
                     # print(r.shape,r)
-                
     
                 R1 = np.reshape(np.sum(r,axis=1),(n,1)) #ri.
                 r = r/R1
