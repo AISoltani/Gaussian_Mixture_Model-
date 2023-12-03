@@ -1,4 +1,4 @@
-#Import lib
+#Import libraries
 
 import idx2numpy
 import numpy as np
