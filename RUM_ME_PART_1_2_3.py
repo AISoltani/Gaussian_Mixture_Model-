@@ -1,3 +1,5 @@
+# Import Libraries
+
 import numpy as np
 from GMM_part1 import GMM_part1
 from GMM_part2 import GMM_part2
